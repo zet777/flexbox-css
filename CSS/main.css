@@ -52,13 +52,14 @@ h1{
 
 .case__wrap{
 	background: #5B6375;
-	padding: 103px; 	
+	padding: 103px;
 }
 
 .case__card{
 	background: #fff;
 	width: 264px;
 	padding: 30px;
+	margin-right: 57px;
 }
 
 .case__img{
