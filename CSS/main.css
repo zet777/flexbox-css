@@ -97,3 +97,39 @@ h1{
 .case__btn_green{
 	background: #69FCB7;
 }
+.btn-holder{
+	margin-top: 67px;
+}
+
+.btn-holder__item{
+	font-weight: bold;
+	font-size: 15px;
+	color: #fff;
+	width: 209px;
+	padding: 18px 0;
+	border-radius: 100px;
+	margin-right: 34px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.btn-holder__item:hover{
+	opacity: 0.8;
+}
+
+.btn-holder__item_purple{
+	background: #7590CE;
+}
+
+.btn-holder__item_orange{
+	background: #EBAD67;
+}
+
+.btn-holder__item_green{
+	background: #67D0EB;
+}
+
+.btn-holder__item_violet{
+	background: #8567EB;
+}
