@@ -28,7 +28,9 @@ p{
 
 h1{
 	font-size: 40px;
+
 }
+/* Global */
 
 .d-flex{
 	display: -webkit-box;
@@ -52,6 +54,15 @@ h1{
 .direction-column{
 	flex-direction: column;
 }
+
+.down-position{
+	margin-top: 40px !important;
+}
+.mt_50{
+	margin-top: 50px;
+}
+
+/* Hero Code */
 
 .heading__intro{
 	font-size: 24px;
@@ -104,6 +115,11 @@ h1{
 	height: 26px;
 	margin-right: 14px;
 }
+
+.case__btn:last-child{
+	margin-right: 0;
+}
+
 .case__btn_pink{
 	background: #FC69A9;
 }
@@ -132,6 +148,8 @@ h1{
 	transition: all 0.5s ease;
 }
 
+
+
 .btn-holder__item:hover{
 	opacity: 0.8;
 }
@@ -155,9 +173,36 @@ h1{
 .case__card_long{
 	width: 100%;
 	margin-right: 0;
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
+	align-items: center;
+	transition: all 0.5s ease;
+}
+
+.case__card_long:nth-child(2),
+.case__card_long:nth-child(3){
+	margin-top: -189px;
 }
 
 .case__wrap_lines{
 	flex-wrap: wrap;
+}
+
+.case__card_long .case__img{
+	width: 209px;
+	margin-right: 70px;
+}
+
+.case__card_long .case__text{
+	width: 209px;
+	margin-left: 80px;
+}
+
+.case__card_long .case__holder {
+	margin-left: auto;
+}
+.case__card_long > div,
+.case__card_long > h3,
+.case__card_long > p{
+	margin-top: 0;
+	margin-bottom: 0;
 }
