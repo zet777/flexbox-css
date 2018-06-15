@@ -9,27 +9,34 @@ $(function(){
         $('.case__holder').removeClass('justify-content-start');
         $('.case__holder').removeClass('justify-content-end');
         $('.case__holder').removeClass('direction-column');
-        $('.case__holder').toggleClass('justify-content-between')
+        $('.case__holder').toggleClass('justify-content-between');
     });
     $('#transform3').click(function(){
         $('.case__holder').removeClass('justify-content-start');
         $('.case__holder').removeClass('direction-column');
         $('.case__holder').removeClass('justify-content-between');
-        $('.case__holder').toggleClass('justify-content-end')
+        $('.case__holder').toggleClass('justify-content-end');
     });
     $('#transform4').click(function(){
         $('.case__holder').removeClass('justify-content-start');
         $('.case__holder').removeClass('justify-content-end');
         $('.case__holder').removeClass('justify-content-between');
-        $('.case__holder').toggleClass('direction-column')
+        $('.case__holder').toggleClass('direction-column');
     });
     $('#transform5').click(function(){
-        $('.case__card_long:nth-child(3)').css('order','-20')
-        $('.case__card_long:nth-child(1)').css('order','20')
+        $('.case__card_long:nth-child(3)').css('order','-20');
+        $('.case__card_long:nth-child(1)').css('order','20');
     });
     $('#transform6').click(function(){
-        $('.case__card_long:nth-child(1)').toggleClass('mt_50')
-        $('.case__card_long:nth-child(2)').toggleClass('down-position')
-        $('.case__card_long:nth-child(3)').toggleClass('down-position')
+        $('.case__card_long:nth-child(1)').toggleClass('mt_50');
+        $('.case__card_long:nth-child(2)').toggleClass('down-position');
+        $('.case__card_long:nth-child(3)').toggleClass('down-position');
+    });
+    $('#transform7').click(function(){
+        $('.case__card_long:nth-child(1)').removeClass('mt_50');
+        $('.case__card_long:nth-child(2)').removeClass('down-position');
+        $('.case__card_long:nth-child(3)').removeClass('down-position');
+        $('.case__card_long:nth-child(3)').css('order','0');
+        $('.case__card_long:nth-child(1)').css('order','0');
     });
 });
