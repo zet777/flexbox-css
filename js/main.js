@@ -1,14 +1,26 @@
 $(function(){
     $('#transform1').click(function(){
-        $('.case__holder').toggleClass('justify-content-start')
+        $('.case__holder').removeClass('justify-content-between');
+        $('.case__holder').removeClass('justify-content-end');
+        $('.case__holder').removeClass('direction-column');
+        $('.case__holder').toggleClass('justify-content-start');
     });
     $('#transform2').click(function(){
+        $('.case__holder').removeClass('justify-content-start');
+        $('.case__holder').removeClass('justify-content-end');
+        $('.case__holder').removeClass('direction-column');
         $('.case__holder').toggleClass('justify-content-between')
     });
     $('#transform3').click(function(){
+        $('.case__holder').removeClass('justify-content-start');
+        $('.case__holder').removeClass('direction-column');
+        $('.case__holder').removeClass('justify-content-between');
         $('.case__holder').toggleClass('justify-content-end')
     });
     $('#transform4').click(function(){
+        $('.case__holder').removeClass('justify-content-start');
+        $('.case__holder').removeClass('justify-content-end');
+        $('.case__holder').removeClass('justify-content-between');
         $('.case__holder').toggleClass('direction-column')
     });
     $('#transform5').click(function(){
